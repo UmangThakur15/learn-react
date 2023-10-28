@@ -10,7 +10,7 @@ function Avatar({person, size}) {
   );
 }
 
-export default function Profile() {
+export default function Profile_P() {
   return (
     <div>
         <Avatar

@@ -7,6 +7,8 @@ import Profile_m from './qcomps/profile_mistake.js'
 import First_comp from './qcomps/firstcomp.js'
 import Bio from './qcomps/bios.js'
 import TodoList from './qcomps/todos.js'
+import Profile_P from './components/profile_props.js'
+import Gallery from './qcomps/gallery_props.js'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <First_comp />
         <Bio />
         <TodoList />
+        <Profile_P />
+        <Gallery />
     </div>
   )
 }
