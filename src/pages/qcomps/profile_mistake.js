@@ -1,8 +1,8 @@
-export default function profile() {
+export default function Profile_m() {       //need to use pascal naming convention 
     return(
         <img
-         src="https://i.imgur.com/jA8hHMpm.jpg"
-         alt="Katsuko Saruhashi" 
+         src="https://i.stack.imgur.com/kyKz5.png"
+         alt="Katsuko Saruhashi"        //need to enclose the return item inside the ()s
          />
         );
 }
