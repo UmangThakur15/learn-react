@@ -26,3 +26,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 ## Learn More
 
 To learn more about React.js, take a look at the [React Documentation](https://legacy.reactjs.org/docs/getting-started.html#learn-react)
+
+1. image of Katherine Johnson
+2. Does not display the picture.
+3. function and component both has same name.
+4. No

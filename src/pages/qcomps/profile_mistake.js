@@ -1,4 +1,4 @@
-export default function Profile_m() {       //need to use pascal naming convention 
+export default function ProfileM() {       //need to use pascal naming convention 
     return(
         <img
          src="https://i.stack.imgur.com/kyKz5.png"
