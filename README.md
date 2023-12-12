@@ -31,3 +31,6 @@ To learn more about React.js, take a look at the [React Documentation](https://l
 2. Does not display the picture.
 3. function and component both has same name.
 4. No
+profile_props.js:
+1. The input parameter Avatar({ person, size }) is a destructuring assignment of the props object. It extracts the person and size properties from the props object directly in the function's parameter list. This is a shorthand in React for extracting values from the props object passed to a functional component.
+2. In <Avatar />, the person attribute represents an object with information about a person, including their name and imageId. The size attribute represents the desired size (both width and height) of the avatar image in pixels.

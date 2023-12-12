@@ -9,7 +9,8 @@ import Bio from './qcomps/bios.js'
 import TodoList from './qcomps/todos.js'
 import Profile_P from './components/profile_props.js'
 import Gallery from './qcomps/gallery_props.js'
-
+import Holder from './components/square.js'
+import PackingList from './components/props_item.js'
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -20,6 +21,8 @@ export default function Home() {
         <TodoList />
         <Profile_P />
         <Gallery />
+        <Holder/>
+        <PackingList/>
     </div>
   )
 }

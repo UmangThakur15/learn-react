@@ -9,13 +9,14 @@ function Square({children}) {
 export default function Holder() {
   return (
     <Square>
-     <img
+     {/* <img
        className="avatar"
        src={'https://i.imgur.com/YfeOqp2s.jpg'}
        alt={'Katsuko Saruhashi'}
        width={300}
        height={300}
-     />
+     /> */}
+     <p>Hello React</p>
     </Square>
   )
 }

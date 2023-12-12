@@ -1,5 +1,9 @@
  function Item({ name, isPacked }) {
-   return <li className="item">{name}</li>;
+   return (
+    <div>
+   <li className="item"><del>{name}</del></li>
+   </div>
+   );
  }
 
 
@@ -13,7 +17,7 @@ export default function PackingList() {
           name="Laptop"
         />
         <Item
-          isPacked={true}
+          isPacked={false}
           name="Chargers"
         />
         <Item
